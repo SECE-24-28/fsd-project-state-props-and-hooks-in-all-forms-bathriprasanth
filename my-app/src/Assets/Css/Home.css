@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Playfair+Display:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f8fafc;
+    color: #333;
+}
+
+/* NAVBAR — custom overrides only, no layout overrides */
+.site-navbar {
+    background: #e8f4f8 !important;
+    padding: 10px 30px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.site-navbar .nav-link {
+    color: #2c5f7a !important;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    transition: color 0.2s;
+}
+
+.site-navbar .nav-link:hover {
+    color: #f4845f !important;
+}
+
+.site-navbar .navbar-brand span {
+    color: #2c5f7a;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.nav-login-btn {
+    background: #f4845f;
+    color: white !important;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 7px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.2s;
+    text-decoration: none;
+}
+
+.nav-login-btn:hover {
+    background: #e06b45;
+    color: white !important;
+}
+
+.nav-user-email {
+    font-size: 13px;
+    color: #666;
+}
+
+
+/* VIDEO */
+.video {
+    position: relative;
+}
+
+.video video {
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
+    filter: brightness(0.75);
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    width: 80%;
+}
+
+.text h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;
+    color: #ffd166;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+.text h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 85px;
+    margin: 0;
+    line-height: 1.1;
+}
+
+.text p {
+    font-size: 20px;
+    line-height: 32px;
+    margin-top: 16px;
+    color: #f0f0f0;
+}
+
+/* TRAVEL SECTION */
+.travel-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 100px;
+    background: #ffffff;
+    gap: 60px;
+}
+
+.travel-image {
+    width: 45%;
+}
+
+.travel-image img {
+    width: 100%;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+}
+
+.travel-text {
+    width: 50%;
+}
+
+.travel-text h3 {
+    color: #f4845f;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.travel-text h1 {
+    font-size: 42px;
+    color: #2c5f7a;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.travel-text p {
+    font-size: 15px;
+    line-height: 28px;
+    color: #777;
+    margin-bottom: 12px;
+}
+
+/* NUMBER BOX */
+.travel-box {
+    display: flex;
+    gap: 40px;
+    margin-top: 32px;
+    padding: 24px 0;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+.travel-box div {
+    text-align: center;
+}
+
+.travel-box h2 {
+    font-size: 40px;
+    color: #f4845f;
+    margin: 0;
+    font-weight: 700;
+}
+
+.travel-box span {
+    font-size: 12px;
+    color: #999;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* BUTTON */
+.travel-text button {
+    margin-top: 32px;
+    padding: 13px 34px;
+    border: none;
+    border-radius: 8px;
+    background: #2c5f7a;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+    transition: background 0.2s;
+    font-family: 'Poppins', sans-serif;
+}
+
+.travel-text button:hover {
+    background: #f4845f;
+}

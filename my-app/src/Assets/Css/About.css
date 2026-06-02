@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Playfair+Display:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f8fafc;
+}
+
+/* ABOUT CONTAINER */
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 100px;
+    gap: 80px;
+    background: #ffffff;
+}
+
+/* LEFT SIDE */
+.about-text {
+    width: 50%;
+}
+
+.about-text h3 {
+    color: #f4845f;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+}
+
+.about-text h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 46px;
+    line-height: 1.25;
+    color: #2c5f7a;
+    margin-bottom: 20px;
+}
+
+.about-text span {
+    background: #f4845f;
+    color: white;
+    padding: 2px 12px;
+    border-radius: 4px;
+}
+
+.about-text p {
+    font-size: 15px;
+    line-height: 28px;
+    color: #777;
+    margin-bottom: 14px;
+}
+
+.about-text h2 {
+    font-size: 20px;
+    color: #2c5f7a;
+    margin: 20px 0 24px;
+    font-weight: 600;
+}
+
+.about-text button {
+    padding: 13px 34px;
+    border: none;
+    border-radius: 8px;
+    background: #f4845f;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+    transition: background 0.2s;
+    font-family: 'Poppins', sans-serif;
+}
+
+.about-text button:hover {
+    background: #2c5f7a;
+}
+
+/* RIGHT SIDE */
+.about-image {
+    position: relative;
+    width: 42%;
+}
+
+.main-img {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+}
+
+.small-img {
+    width: 155px;
+    height: 105px;
+    object-fit: cover;
+    border-radius: 12px;
+    position: absolute;
+    border: 3px solid white;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.12);
+}
+
+.img1 { top: -40px; left: -60px; }
+.img2 { top: -40px; right: -50px; }
+.img3 { bottom: -40px; left: -60px; }
+.img4 { bottom: -40px; right: -50px; }
